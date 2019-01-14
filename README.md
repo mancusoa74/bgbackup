@@ -14,15 +14,15 @@ i.e.: run the backup every 30 minutes
 */30 * * * * /path/to/bgbackup/bgbackup.sh
 ```
 
-Note on Windows Lionux Subsystem:
+Note on Windows Linux Subsystem:
 
--1 you need to add your user to the crontab group
+1- you need to add your user to the crontab group
 
 ```
 sudo usermod -a -G crontab <your user name>
 ```
 
--2 you need to start crontab
+2- you need to start crontab
 
 ```
 sudo cron
